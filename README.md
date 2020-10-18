@@ -4,7 +4,7 @@ The deployed web app is live at
 
 This web app predicts the species of Iris flower as a function of their input parameters (sepal length, sepal width, petal length, petal width, class).
 
-where class have 3 parameters:
+where imput parameters class have 3 values:
 
 * Iris-setosa
 * Iris-versicolor
