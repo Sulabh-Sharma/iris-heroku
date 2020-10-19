@@ -76,7 +76,7 @@ st.write(classes)
 
 
 st.subheader('**Prediction**')
-st.write(classes[pred])
+st.write(pred)
  
 
 st.subheader('**Prediction Probability**')
