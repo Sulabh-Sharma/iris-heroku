@@ -81,3 +81,14 @@ st.write(pred)
 
 st.subheader('**Prediction Probability**')
 st.write(pred_proba)
+
+
+from sklearn.metrics import confusion_matrix,accuracy_score
+cm = confusion_matrix(y_test, pred2)
+st.subheader('**Confusion Metrics is**')
+st.write(cm)
+
+
+st.subheader('**Accuracy Score is**')
+st.write(accuracy_score(y_test, pred2))
+
