@@ -63,6 +63,7 @@ clf = RandomForestClassifier(n_estimators=10, criterion='entropy', random_state=
 clf.fit(X_train,y_train)
 
 pred = clf.predict(sc.transform(dframe.values))
+pred2 = clf.predict(X_test)
 pred_proba = clf.predict_proba(sc.transform(dframe.values))
 
 # print(pred)
